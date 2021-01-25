@@ -23,7 +23,7 @@ class Currency {
 }
 
 class Value {
-  TextEditingController _controller = TextEditingController();
+  final TextEditingController _controller = TextEditingController();
 
   TextEditingController get controller => _controller;
 
